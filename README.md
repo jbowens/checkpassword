@@ -8,5 +8,6 @@ This approach is fast and has minor memory usage.
 
 ```
 go get github.com/jbowens/checkpassword
+go install github.com/jbowens/checkpassword
 checkpassword -file ~/pwned-passwords-sha1-ordered-by-hash-v4.txt "password"
 ```
