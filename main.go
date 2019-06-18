@@ -66,7 +66,7 @@ func main() {
 }
 
 func checkPasswords(file string, passwords []string) (map[string]int, error) {
-	// Hash each othe password to check, and store
+	// Hash each of the passwords to check, and store
 	// a map from the hash to the password.
 	checkHashes := make(map[string]string, len(passwords))
 	for _, pw := range passwords {
